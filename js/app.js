@@ -4,4 +4,7 @@ window.onload = function() {
     button.onclick = function(){
         modal.style.display = "block";
     }
+    modal.onclick = function() {
+        modal.style.display = "none";
+    }
 }
