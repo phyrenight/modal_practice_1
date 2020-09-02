@@ -7,7 +7,7 @@ header {
     text-align: center;
 }
 
-.section {
+section {
     display: relative;
 }
 
@@ -18,3 +18,14 @@ section button {
     left: 50%;
     transform: translate(-50%, -50%)
 }
+
+#modal_section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.3);
+}
+
+/*.modal_section, .modal_div, .modal_div p {
+    display: none;
+}*/
